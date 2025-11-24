@@ -1,24 +1,9 @@
-
-                        <!DOCTYPE html>
-                        <html lang="en">
-                        <head>
-                            <meta charset="UTF-8">
-                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-              <style>
-                body {
-                  background-color: white; /* Ensure the iframe has a white background */
-                }
-
-                
-              </style>
-                        </head>
-                        <body>
-                            <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Девлятова Динара — AI & English Tutor</title>
+  <title>Девлятова Динара — Преподаватель английского языка</title>
   
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -66,12 +51,7 @@
       min-height: 100vh;
       position: relative;
       overflow-x: hidden;
-      padding-top: 100px; /* отступ под фиксированное меню */
-    }
-
-    /* УБРАЛИ КЛЕТКУ! Оставили только градиент и гексагоны */
-    .grid-bg {
-      display: none; /* ← убрана сетка */
+      padding-top: 100px;
     }
 
     /* Плавающие гексагоны */
@@ -145,8 +125,8 @@
       height: 140px;
       border-radius: 50%;
       object-fit: cover;
-      border: 3px solid var(--accent);
-      box-shadow: 0 0 20px rgba(0, 240, 160, 0.4);
+      border: 3px solid white; /* Белый кружок */
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
       margin: 0 auto 1.2rem;
       display: block;
     }
@@ -208,7 +188,7 @@
       margin-bottom: 2rem;
       backdrop-filter: blur(8px);
       transition: all 0.4s ease;
-      scroll-margin-top: 100px; /* для прокрутки с учётом фиксированного меню */
+      scroll-margin-top: 100px;
     }
 
     section:hover {
@@ -338,80 +318,81 @@
 </head>
 <body>
 
-  <!-- Плавающие гексагоны -->
   <div class="hex"></div>
   <div class="hex"></div>
   <div class="hex"></div>
 
-  <!-- Фиксированное меню -->
   <nav>
-    <a href="#about" class="nav-link"><i class="fas fa-user-astronaut"></i> О себе</a>
-    <a href="#directions" class="nav-link"><i class="fas fa-brain"></i> Направления</a>
-    <a href="#method" class="nav-link"><i class="fas fa-microchip"></i> Методика</a>
-    <a href="#qualifications" class="nav-link"><i class="fas fa-certificate"></i> Квалификация</a>
-    <a href="#schedule" class="nav-link"><i class="fas fa-clock"></i> Занятия</a>
-    <a href="#contacts" class="nav-link"><i class="fas fa-plug"></i> Контакты</a>
+    <a href="#about" class="nav-link"><i class="fas fa-user"></i> О себе</a>
+    <a href="#directions" class="nav-link"><i class="fas fa-book"></i> Направления</a>
+    <a href="#method" class="nav-link"><i class="fas fa-laptop-code"></i> Методика</a>
+    <a href="#education" class="nav-link"><i class="fas fa-graduation-cap"></i> Образование</a>
+    <a href="#schedule" class="nav-link"><i class="fas fa-video"></i> Формат занятий</a>
+    <a href="#contacts" class="nav-link"><i class="fas fa-phone"></i> Контакты</a>
   </nav>
 
   <header>
     <div class="toggle-theme" id="themeToggle">
       <i class="fas fa-moon"></i>
     </div>
-    <img src="https://i.imgur.com/7JYkQgD.jpeg" alt="Девлятова Динара Менсуровна" class="photo-circle" id="profilePhoto">
+    <img src="https://sun9-51.userapi.com/s/v1/ig2/L7qHbEcJPp3PfA-i6u-W2MaWxiuHG1BUzOR_h0BUqjP6hXPhvmCCkggrjZC1FiYBeCYY7jPdHXMfWotxRKClH80C.jpg?quality=95&as=32x28,48x41,72x62,108x93,160x138,240x207,360x311,480x415,540x467,640x553,720x622,1080x934,1280x1107,1440x1245&from=bu&cs=1440x0" alt="Девлятова Динара Менсуровна" class="photo-circle" id="profilePhoto">
     <div class="header-text">Девлятова Динара Менсуровна</div>
-    <p class="tagline">AI-Enhanced English Tutor • Cambridge & ЕГЭ • 15+ Years</p>
+    <p class="tagline">Преподаватель английского языка • Онлайн</p>
   </header>
 
   <div class="container">
 
     <section id="about">
-      <h2><i class="fas fa-user-astronaut"></i> О себе</h2>
-      <p>Более 15 лет объединяю педагогику и технологии. Мои методики включают ИИ-инструменты, интерактивные медиа и адаптивное обучение для детей и взрослых — от первого слова до уровня C2.</p>
+      <h2><i class="fas fa-user"></i> О себе</h2>
+      <p>Более 15 лет помогаю детям и взрослым осваивать английский язык — от первого слова до свободного владения. Мои ученики успешно сдают экзамены и уверенно используют язык в жизни и карьере.</p>
     </section>
 
     <section id="directions">
-      <h2><i class="fas fa-brain"></i> Направления</h2>
+      <h2><i class="fas fa-book"></i> Направления</h2>
       <ul>
-        <li>Подготовка к Cambridge: Starters, Movers, Flyers, KET, PET, FCE</li>
-        <li>IELTS, ОГЭ, ЕГЭ — результаты выше среднего по стране</li>
-        <li>General & Business English</li>
-        <li>Уровни A1–C2 с использованием цифровых адаптивных материалов</li>
+        <li>Подготовка к международным экзаменам: Cambridge Starters, Movers, Flyers, KET, PET, FCE, IELTS</li>
+        <li>Подготовка к ОГЭ и ЕГЭ</li>
+        <li>Английский для детей и взрослых</li>
+        <li>General English и Business English</li>
+        <li>Уровни от A1 (начальный) до C2 (продвинутый)</li>
       </ul>
     </section>
 
     <section id="method">
-      <h2><i class="fas fa-microchip"></i> Техно-методика</h2>
-      <p>Я создаю собственные цифровые ресурсы с применением ИИ:</p>
+      <h2><i class="fas fa-laptop-code"></i> Методика и материалы</h2>
+      <p>Совмещаю классические и инновационные подходы:</p>
       <ul>
-        <li>Интерактивные квизы, игры, видео и песни</li>
-        <li>Авторские цифровые книги и тесты</li>
-        <li>Персонализированные упражнения на основе прогресса ученика</li>
+        <li>Официальные учебники Cambridge University Press</li>
+        <li>Видеоуроки и интерактивные задания</li>
+        <li>Обучающие игры, квизы, песни и авторские тесты</li>
+        <li>Цифровые книги и адаптированные материалы под каждого ученика</li>
       </ul>
       <a href="https://quizizz.com" target="_blank" rel="noopener" class="btn">
-        <i class="fas fa-bolt"></i> Интерактивные упражнения
+        <i class="fas fa-gamepad"></i> Интерактивные упражнения, тесты, игры
       </a>
     </section>
 
-    <section id="qualifications">
-      <h2><i class="fas fa-certificate"></i> Квалификация</h2>
+    <section id="education">
+      <h2><i class="fas fa-graduation-cap"></i> Образование и сертификаты</h2>
       <ul>
-        <li>Педагогический университет</li>
-        <li>Cambridge TKT (Teaching Knowledge Test)</li>
-        <li>Сертификаты: «ИИ в образовании», «Цифровой контент для обучения»</li>
+        <li>Высшее педагогическое образование, ин.яз</li>
+        <li>Кембриджский сертификат для преподавателей — TKT (Teaching Knowledge Test)</li>
+        <li>Сертификаты по применению ИИ в обучении</li>
+        <li>Курсы по созданию обучающих игр, видео, квизов, тестов и авторских книг</li>
       </ul>
     </section>
 
     <section id="schedule">
-      <h2><i class="fas fa-clock"></i> Занятия</h2>
+      <h2><i class="fas fa-video"></i> Формат занятий</h2>
       <ul>
-        <li>Длительность: 40–60 мин</li>
-        <li>Индивидуально или в мини-группах</li>
-        <li>От 1500 ₽/занятие</li>
+        <li>Длительность: от 40 до 60 минут</li>
+        <li>Формат: онлайн индивидуальные и групповые занятия</li>
+        <li>Стоимость от 1500 руб./занятие</li>
       </ul>
     </section>
 
     <section id="contacts">
-      <h2><i class="fas fa-plug"></i> Контакты</h2>
+      <h2><i class="fas fa-phone"></i> Контакты</h2>
       <div class="contact-item">
         <i class="fas fa-phone"></i>
         <a href="tel:+79067299907">+7 (906) 729-99-07</a>
@@ -433,11 +414,10 @@
   </div>
 
   <footer>
-    <p>© 2025 DINARA DEVLYATOVA • English Tutor with AI Integration</p>
+    <p>© 2025 Девлятова Динара Менсуровна — Преподаватель английского языка</p>
   </footer>
 
   <script>
-    // Переключение темы
     const themeToggle = document.getElementById('themeToggle');
     const body = document.body;
     const photo = document.getElementById('profilePhoto');
@@ -459,22 +439,9 @@
       }
     });
 
-    // Замените на ваше фото
-    photo.src = "https://sun9-51.userapi.com/s/v1/ig2/L7qHbEcJPp3PfA-i6u-W2MaWxiuHG1BUzOR_h0BUqjP6hXPhvmCCkggrjZC1FiYBeCYY7jPdHXMfWotxRKClH80C.jpg?quality=95&as=32x28,48x41,72x62,108x93,160x138,240x207,360x311,480x415,540x467,640x553,720x622,1080x934,1280x1107,1440x1245&from=bu&cs=1440x0"; // ← ВАША ССЫЛКА НА ФОТО
+    // Ваше фото уже вставлено в HTML выше — URL актуален
   </script>
 
 </body>
 </html>
 
-   <a href="https://t.me/ВАШ_БОТ_USERNAME" ...
-   
-
-
-              <script>
-                                 photo.src = "https://i.imgur.com/7JYkQgD.jpeg";
-   
-
-              </script>
-                        </body>
-                        </html>
-                    
